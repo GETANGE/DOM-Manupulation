@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute method</title>
+</head>
+<body>
+     <form action="">
+        Enter Number: <input type="text" id="number">
+     </form>
+        <input type="button" value="Absolute" onclick="Number()">
+     <p><span id="result"></span></p>
+</body>
+  <script>
+      function Number(){
+        var x=document.getElementById("number").value;
+      document.getElementById("result").innerHTML=Math.abs(x);
+      }
+  </script>
+</html>
